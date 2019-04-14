@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StartPage</class>
+ <widget class="QWidget" name="StartPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1080</width>
+    <height>1920</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>StartPage</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QPushButton" name="nextButton">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>778</y>
+     <width>443</width>
+     <height>123</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Microsoft YaHei UI Light</family>
+     <pointsize>32</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/BDPassPrinter/Resources/step_button.png);
+color: rgb(255, 255, 255);
+border-radius:10px</string>
+   </property>
+   <property name="text">
+    <string>旅 客 验 证</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="centralWidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1080</width>
+     <height>1920</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#centralWidget {
+border-image: url(:/BDPassPrinter/Resources/welcomNotext.jpg);
+}
+</string>
+   </property>
+  </widget>
+  <zorder>centralWidget</zorder>
+  <zorder>nextButton</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="BDPassPrinter.qrc"/>
+ </resources>
+ <connections/>
+</ui>

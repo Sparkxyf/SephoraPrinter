@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ProcessPrint</class>
+ <widget class="QWidget" name="ProcessPrint">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1080</width>
+    <height>1880</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ProcessPrint</string>
+  </property>
+  <widget class="QWidget" name="centralWidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1080</width>
+     <height>1920</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>1080</width>
+     <height>1920</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#centralWidget {
+border-image:url(:/BDPassPrinter/Resources/welcomePage.jpg);
+}
+</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="BDPassPrinter.qrc"/>
+ </resources>
+ <connections/>
+</ui>

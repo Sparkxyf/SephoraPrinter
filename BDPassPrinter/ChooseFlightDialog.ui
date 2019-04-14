@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChooseFlightDialog</class>
+ <widget class="QWidget" name="ChooseFlightDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1080</width>
+    <height>1920</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ChooseFlightDialog</string>
+  </property>
+  <widget class="QPushButton" name="dest0">
+   <property name="geometry">
+    <rect>
+     <x>628</x>
+     <y>132</y>
+     <width>342</width>
+     <height>478</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="dest1">
+   <property name="geometry">
+    <rect>
+     <x>58</x>
+     <y>322</y>
+     <width>381</width>
+     <height>541</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="dest2">
+   <property name="geometry">
+    <rect>
+     <x>677</x>
+     <y>721</y>
+     <width>351</width>
+     <height>480</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="dest4">
+   <property name="geometry">
+    <rect>
+     <x>535</x>
+     <y>1293</y>
+     <width>341</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="dest3">
+   <property name="geometry">
+    <rect>
+     <x>58</x>
+     <y>1115</y>
+     <width>345</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QWidget" name="centralWidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1080</width>
+     <height>1920</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#centralWidget{border-image: url(:/BDPassPrinter/Resources/背景图.png);}
+</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget0" native="true">
+   <property name="geometry">
+    <rect>
+     <x>629</x>
+     <y>133</y>
+     <width>342</width>
+     <height>479</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/BDPassPrinter/Resources/d0.png);</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget1" native="true">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>321</y>
+     <width>390</width>
+     <height>545</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/BDPassPrinter/Resources/d1.png);</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>683</x>
+     <y>721</y>
+     <width>343</width>
+     <height>479</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/BDPassPrinter/Resources/d2.png);</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget3" native="true">
+   <property name="geometry">
+    <rect>
+     <x>58</x>
+     <y>1115</y>
+     <width>342</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/BDPassPrinter/Resources/d3.png);</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget4" native="true">
+   <property name="geometry">
+    <rect>
+     <x>537</x>
+     <y>1293</y>
+     <width>342</width>
+     <height>342</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/BDPassPrinter/Resources/d4.png);</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1080</width>
+     <height>1920</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/BDPassPrinter/Resources/上层.png);</string>
+   </property>
+  </widget>
+  <zorder>centralWidget</zorder>
+  <zorder>widget0</zorder>
+  <zorder>widget1</zorder>
+  <zorder>widget2</zorder>
+  <zorder>widget3</zorder>
+  <zorder>widget4</zorder>
+  <zorder>widget</zorder>
+  <zorder>dest2</zorder>
+  <zorder>dest3</zorder>
+  <zorder>dest1</zorder>
+  <zorder>dest0</zorder>
+  <zorder>dest4</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="BDPassPrinter.qrc"/>
+ </resources>
+ <connections/>
+</ui>

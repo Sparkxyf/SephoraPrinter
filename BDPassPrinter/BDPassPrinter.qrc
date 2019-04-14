@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/BDPassPrinter">
+        <file>Resources/welcomNotext.jpg</file>
+        <file>Resources/inputFormBackGround.jpg</file>
+        <file>Resources/d1.png</file>
+        <file>Resources/d2.png</file>
+        <file>Resources/d3.png</file>
+        <file>Resources/d4.png</file>
+        <file>Resources/step_button.png</file>
+        <file>Resources/d0.png</file>
+        <file>Resources/背景图.png</file>
+        <file>Resources/上层.png</file>
+        <file>Resources/template-modified.jpg</file>
+        <file>Resources/welcomePage.jpg</file>
+        <file>Resources/d0_disable.png</file>
+        <file>Resources/d1_disable.png</file>
+        <file>Resources/d2_disable.png</file>
+        <file>Resources/d3_disable.png</file>
+        <file>Resources/d4_disable.png</file>
+        <file>Resources/pass.png</file>
+    </qresource>
+</RCC>
